@@ -11,6 +11,18 @@ h1 {
    text-shadow: 5px 5px 6px gray;
 }
 
+/* Box around the content aligned to the left */
+.content-box {
+   border: 2px solid darkblue;
+   padding: 20px;
+   margin: 20px 0; /* This removes auto-centering and aligns the box to the left */
+   width: 400px;
+   background-color: white;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+
+
 /* Paragraph styles for lyrics */
 p {
    color: white;
